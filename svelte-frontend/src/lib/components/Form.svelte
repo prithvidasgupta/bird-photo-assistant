@@ -8,7 +8,14 @@
      */
     let results = null;
     let error = false;
-
+    /**
+     * Submit the HTML form to send the HTTP request to the backend server.
+     * The returned response is parsed using a Svelte for loop to populate the
+     * page.
+     * 
+     * Current issues include:
+     * 1. Changing the text in the text box does not remove already loaded content
+     */
     async function submitForm() {
         loading = true;
         try {

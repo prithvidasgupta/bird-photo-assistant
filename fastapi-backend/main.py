@@ -20,7 +20,7 @@ logging.basicConfig(filename='server.log', level=logging.ERROR)
 app = FastAPI()
 
 
-@app.get_bird_names("/place/{place}/season/{season}/birds/{num_birds}")
+@app.get("/place/{place}/season/{season}/birds/{num_birds}")
 def get_bird_details(place: str, season: str, num_birds: int, response: Response):
     '''
     To fetch the requested birding data from ChatGPT.

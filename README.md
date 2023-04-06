@@ -7,6 +7,9 @@ specific date.
 
 This project has only been tested locally and is prone to bugs. It is not meant for production use and is only for demonstration purpose.
 
+#### YouTube Video 
+
+[![Bird Photo Assistant](https://img.youtube.com/vi/j11LiaW59Nc/0.jpg)](https://youtu.be/j11LiaW59Nc)
 
 ## The Backend
 
